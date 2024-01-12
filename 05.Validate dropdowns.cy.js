@@ -12,6 +12,9 @@ describe('validate select based dropdown', ()=>{
         cy.get('.product_sort_container').select('Price (high to low)')
         cy.get('.product_sort_container').select('Price (low to high)')
         cy.get('.product_sort_container').select('Name (A to Z)')
+<<<<<<< HEAD
         cy.get('.product_sort_container').select('Name (Z to A)');
+=======
+>>>>>>> 426b72e (4th commit)
     })
 })
