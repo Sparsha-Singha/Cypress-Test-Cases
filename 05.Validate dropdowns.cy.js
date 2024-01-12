@@ -2,7 +2,7 @@
 
 describe('validate select based dropdown', ()=>{
 
-    before('visit & Login', ()=>{
+    before('visit & Login the website', ()=>{
         cy.visit('https://www.saucedemo.com/v1/index.html')
         cy.get('#user-name').type('standard_user')
         cy.get('#password').type('secret_sauce')
